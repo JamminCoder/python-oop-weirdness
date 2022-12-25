@@ -1,18 +1,18 @@
 class Fruit:
 	def __init__(self, data = {"color": "unknown"}):
-		self._data = data
+		self.data = data
 
 	def set_color(self, color: str):
-		self._data["color"] = color
+		self.data["color"] = color
 
-	def print_data(self):
-		print(f"I'm { self._data.get('color') }")
+	def print_color(self):
+		print(f"I'm { self.data.get('color') }")
 
 
 orange = Fruit()
 orange.set_color("orange")
-orange.print_data()
+orange.print_color() # Prints "I'm orange"
 
 
 apple = Fruit()
-apple.print_data()
+apple.print_color() # ????

@@ -7,7 +7,7 @@ class Fruit {
         this.data["color"] = color;
     }
 
-    print_data() {
+    print_color() {
         console.log("I'm " + this.data["color"])
     }
 };
@@ -15,8 +15,8 @@ class Fruit {
 
 const orange = new Fruit();
 orange.set_color("orange");
-orange.print_data();
+orange.print_color();
 
 
 const apple = new Fruit();
-apple.print_data();
+apple.print_color();

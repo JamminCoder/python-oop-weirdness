@@ -19,7 +19,7 @@ public:
         this->data["color"] = color;
     }
 
-    void print_data() {
+    void print_color() {
         std::cout << "I'm " << this->data["color"] << std::endl;
     }
 };
@@ -30,10 +30,10 @@ int main() {
 
     Fruit orange = Fruit();
     orange.set_color("orange");
-    orange.print_data();
+    orange.print_color();
 
     Fruit apple = Fruit();
-    apple.print_data();
+    apple.print_color();
 
     return 0;
 }
