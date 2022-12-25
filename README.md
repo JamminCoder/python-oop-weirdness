@@ -1,4 +1,5 @@
 # Python OOP Weirdness
+###### Inspired by this [Tweet](https://twitter.com/PR0GRAMMERHUM0R/status/1606515035379048451?s=20&t=oXGetVU72J4GDNNf5MIkcg) by [Programmer Humor](https://twitter.com/PR0GRAMMERHUM0R])
 
 Take this Python code:
 ```python
