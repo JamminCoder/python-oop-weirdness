@@ -15,7 +15,7 @@ end
 
 orange = Fruit.new()
 orange.set_color("orange")
-orange.print_color
+orange.print_color()
 
 apple = Fruit.new()
 apple.print_color()
